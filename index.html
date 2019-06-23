@@ -81,7 +81,7 @@
 									</header>
 									
 									<div class="ex1"><p style ="color: black";>
- <iframe src="https://d12619ekhlva18.cloudfront.net/FT+Pre+MBA/Finance+Methods+-+Mikhail+Simutin/Introduction1+Introduction+to+Foundations+of+Finance.mp4" width="100%" height="350px;"></iframe>	<br> </br>								
+ <iframe style="padding-bottom: 5px;"  src="https://d12619ekhlva18.cloudfront.net/FT+Pre+MBA/Finance+Methods+-+Mikhail+Simutin/Introduction1+Introduction+to+Foundations+of+Finance.mp4" width="100%" height="350px;"></iframe>								
 NOTE: This section is incomplete. Needs course description. Please provide it so we can add it before the course goes live.
 
 
@@ -161,10 +161,20 @@ NOTE: This section is incomplete. Needs course description. Please provide it so
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			
-		<script>	if (top.location!= self.location) {
-   top.location = self.location.href; </script>
-   
+		<!-- <script>	if (top.location!= self.location) {
+   top.location = self.location.href; </script> -->
 
+<script type="text/javascript"> // if site open in iframe then redirect to main site
+      
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+  $(function(){
+ if(window.top.location != window.self.location)
+             {
+                top.window.location.href = window.self.location;
+             }
+        });
+}
+</script>
 
 
 
